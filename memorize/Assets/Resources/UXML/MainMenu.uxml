@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement style="bottom: auto; height: 216px; flex-grow: 1; border-bottom-color: rgba(56, 95, 122, 255); border-left-width: -1px; border-right-width: -1px; border-top-width: -1px; border-bottom-width: -1px;">
+        <Style src="/Assets/Resources/StyleSheets/MainMenu.uss" />
+        <ui:Label text="Main Menu" name="title" style="justify-content: center; align-items: center; -unity-text-align: middle-center; height: 33.66666px; border-bottom-width: 1px; border-bottom-color: rgba(7, 1, 1, 255);" />
+        <ui:VisualElement style="flex-grow: 1; justify-content: space-around;">
+            <ui:VisualElement style="align-items: center; height: 30.33333px;">
+                <ui:Button text="Go to Scene 1" name="goToScene1" style="width: 100px; height: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="align-items: center; height: 30.33333px;">
+                <ui:Button text="Go to Scene 2" name="goToScene2" style="width: 100px; height: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

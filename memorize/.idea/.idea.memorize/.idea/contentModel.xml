@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Resources" t="Include">
+          <e p="StyleSheets" t="Include">
+            <e p="MainMenu.uss" t="Include" />
+          </e>
+          <e p="UXML" t="Include">
+            <e p="MainMenu.uxml" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="NavigationManager.cs" t="Include" />
+        </e>
+      </e>
+      <e p="memorize.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive">
+        <e p="com.unity.ui" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Controls" t="Include">
+              <e p="BaseCompositeField.cs" t="Include" />
+              <e p="BasePopupField.cs" t="Include" />
+              <e p="BindingExtensions.cs" t="Include" />
+              <e p="BoundsField.cs" t="Include" />
+              <e p="BoundsIntField.cs" t="Include" />
+              <e p="ColorField.cs" t="Include" />
+              <e p="CompoundFields.cs" t="Include" />
+              <e p="ControlBindings.cs" t="Include" />
+              <e p="CurveField.cs" t="Include" />
+              <e p="DoubleField.cs" t="Include" />
+              <e p="EnumField.cs" t="Include" />
+              <e p="EnumFlagsField.cs" t="Include" />
+              <e p="FloatField.cs" t="Include" />
+              <e p="GradientField.cs" t="Include" />
+              <e p="IntegerField.cs" t="Include" />
+              <e p="LayerField.cs" t="Include" />
+              <e p="LayerMaskField.cs" t="Include" />
+              <e p="ListViewBindings.cs" t="Include" />
+              <e p="LongField.cs" t="Include" />
+              <e p="MaskField.cs" t="Include" />
+              <e p="ObjectField.cs" t="Include" />
+              <e p="PopupField.cs" t="Include" />
+              <e p="ProgressBar.cs" t="Include" />
+              <e p="PropertyControl.cs" t="Include" />
+              <e p="PropertyField.cs" t="Include" />
+              <e p="TagField.cs" t="Include" />
+              <e p="TextValueField.cs" t="Include" />
+              <e p="VisualSplitter.cs" t="Include" />
+            </e>
+            <e p="Debugger" t="Include">
+              <e p="BoxModelView.cs" t="Include" />
+              <e p="DebuggerCompatibility.cs" t="Include" />
+              <e p="DebuggerSearchBar.cs" t="Include" />
+              <e p="DebuggerSplitter.cs" t="Include" />
+              <e p="DebuggerTreeView.cs" t="Include" />
+              <e p="Events" t="Include">
+                <e p="CodeLine.cs" t="Include" />
+                <e p="EventLog.cs" t="Include" />
+                <e p="EventLogLine.cs" t="Include" />
+                <e p="EventTypeSelectField.cs" t="Include" />
+                <e p="UIElementsEventDebugger.cs" t="Include" />
+              </e>
+              <e p="OverlayPainter.cs" t="Include" />
+              <e p="PanelDebugger.cs" t="Include" />
+              <e p="StyleLengthField.cs" t="Include" />
+              <e p="StylePropertyDebugger.cs" t="Include" />
+              <e p="StylesDebugger.cs" t="Include" />
+              <e p="UIElementsDebugger.cs" t="Include" />
+              <e p="UIR" t="Include">
+                <e p="Debugger" t="Include">
+                  <e p="AllocatorDebugger.cs" t="Include" />
+                  <e p="UIRDebugger.cs" t="Include" />
+                </e>
+                <e p="UIRDebugUtility.cs" t="Include" />
+              </e>
+              <e p="UxmlExporter.cs" t="Include" />
+            </e>
+            <e p="EditorContextualMenuManager.cs" t="Include" />
+            <e p="EditorCursor.cs" t="Include" />
+            <e p="EditorDragAndDrop.cs" t="Include" />
+            <e p="EditorMenuExtensions.cs" t="Include" />
+            <e p="EditorPanel.cs" t="Include" />
+            <e p="EditorWindowPersistentViewData.cs" t="Include" />
+            <e p="EventSystemsInspector.cs" t="Include" />
+            <e p="FieldMouseDragger.cs" t="Include" />
+            <e p="FileWatcher.cs" t="Include" />
+            <e p="IMGUIContainer.cs" t="Include" />
+            <e p="IMGUIContainerUtility.cs" t="Include" />
+            <e p="PanelDebug.cs" t="Include" />
+            <e p="PlayModeMenuItems.cs" t="Include" />
+            <e p="Renderer" t="Include">
+              <e p="EditorAtlasMonitor.cs" t="Include" />
+            </e>
+            <e p="RetainedMode.cs" t="Include" />
+            <e p="SerializableJsonDictionary.cs" t="Include" />
+            <e p="StyleSheets" t="Include">
+              <e p="CSSSpec.cs" t="Include" />
+              <e p="StyleSheetBuilder.cs" t="Include" />
+              <e p="StyleSheetEditor.cs" t="Include" />
+              <e p="StyleSheetImporter.cs" t="Include" />
+              <e p="StyleSheetImporterImpl.cs" t="Include" />
+              <e p="StyleSheetImportErrors.cs" t="Include" />
+              <e p="URIHelpers.cs" t="Include" />
+            </e>
+            <e p="Toolbar" t="Include">
+              <e p="IToolbarMenuElement.cs" t="Include" />
+              <e p="SearchFieldBase.cs" t="Include" />
+              <e p="Toolbar.cs" t="Include" />
+              <e p="ToolbarBreadcrumbs.cs" t="Include" />
+              <e p="ToolbarButton.cs" t="Include" />
+              <e p="ToolbarMenu.cs" t="Include" />
+              <e p="ToolbarPopupSearchField.cs" t="Include" />
+              <e p="ToolbarSearchField.cs" t="Include" />
+              <e p="ToolbarSpacer.cs" t="Include" />
+              <e p="ToolbarToggle.cs" t="Include" />
+            </e>
+            <e p="Tooltip.cs" t="Include" />
+            <e p="UIElementsEditorUtility.cs" t="Include" />
+            <e p="UIElementsEditorWindow.cs" t="Include" />
+            <e p="UIElementsEditorWindowCreator" t="Include">
+              <e p="CSharpTemplateCreator.cs" t="Include" />
+              <e p="UIElementsEditorWindowCreator.cs" t="Include" />
+              <e p="UssTemplateCreator.cs" t="Include" />
+              <e p="UxmlTemplateCreator.cs" t="Include" />
+            </e>
+            <e p="UIElementsViewImporter.cs" t="Include" />
+            <e p="Unity.UIElements.Editor.asmdef" t="Include" />
+            <e p="UXMLEditorFactories.cs" t="Include" />
+            <e p="UXMLSchemaGenerator.cs" t="Include" />
+            <e p="VisualTreeAssetEditor.cs" t="Include" />
+            <e p="WindowBackends" t="Include">
+              <e p="DefaultEditorWindowBackend.cs" t="Include" />
+              <e p="DefaultWindowBackend.cs" t="Include" />
+              <e p="WindowBackendManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="BindableElement.cs" t="Include" />
+            <e p="ClampedDragger.cs" t="Include" />
+            <e p="Clickable.cs" t="Include" />
+            <e p="ClickDetector.cs" t="Include" />
+            <e p="ContextualMenuManager.cs" t="Include" />
+            <e p="ContextualMenuManipulator.cs" t="Include" />
+            <e p="Controls" t="Include">
+              <e p="BaseField.cs" t="Include" />
+              <e p="BaseSlider.cs" t="Include" />
+              <e p="Binding.cs" t="Include" />
+              <e p="Box.cs" t="Include" />
+              <e p="Button.cs" t="Include" />
+              <e p="Foldout.cs" t="Include" />
+              <e p="HelpBox.cs" t="Include" />
+              <e p="Image.cs" t="Include" />
+              <e p="INotifyValueChanged.cs" t="Include" />
+              <e p="KeyboardTextEditor.cs" t="Include" />
+              <e p="Label.cs" t="Include" />
+              <e p="ListView.cs" t="Include" />
+              <e p="MinMaxSlider.cs" t="Include" />
+              <e p="PopupWindow.cs" t="Include" />
+              <e p="RepeatButton.cs" t="Include" />
+              <e p="Scroller.cs" t="Include" />
+              <e p="ScrollView.cs" t="Include" />
+              <e p="Slider.cs" t="Include" />
+              <e p="SliderInt.cs" t="Include" />
+              <e p="TextEditor.cs" t="Include" />
+              <e p="TextEditorEngine.cs" t="Include" />
+              <e p="TextField.cs" t="Include" />
+              <e p="TextInputFieldBase.cs" t="Include" />
+              <e p="Toggle.cs" t="Include" />
+              <e p="TouchScreenTextEditor.cs" t="Include" />
+              <e p="TreeView.cs" t="Include" />
+              <e p="TreeViewItem.cs" t="Include" />
+              <e p="VisualTreeBindingsUpdater.cs" t="Include" />
+            </e>
+            <e p="Cursor.cs" t="Include" />
+            <e p="DisposeHelper.cs" t="Include" />
+            <e p="DragAndDrop" t="Include">
+              <e p="DragAndDropUtility.cs" t="Include" />
+              <e p="DragEventsProcessor.cs" t="Include" />
+              <e p="IDragAndDrop.cs" t="Include" />
+              <e p="IDragAndDropController.cs" t="Include" />
+              <e p="IListDragAndDropArgs.cs" t="Include" />
+              <e p="IListViewDragAndDropController.cs" t="Include" />
+              <e p="IReorderable.cs" t="Include" />
+              <e p="ListViewDragger.cs" t="Include" />
+              <e p="ListViewReorderableDragAndDropController.cs" t="Include" />
+            </e>
+            <e p="DropdownMenu.cs" t="Include" />
+            <e p="EasingCurves.cs" t="Include" />
+            <e p="EventDispatcher.cs" t="Include" />
+            <e p="Events" t="Include">
+              <e p="CaptureEvents.cs" t="Include" />
+              <e p="ChangeEvent.cs" t="Include" />
+              <e p="CommandEventDispatchingStrategy.cs" t="Include" />
+              <e p="CommandEvents.cs" t="Include" />
+              <e p="DebuggerEventDispatchingStrategy.cs" t="Include" />
+              <e p="DefaultDispatchingStrategy.cs" t="Include" />
+              <e p="DragAndDropEvents.cs" t="Include" />
+              <e p="ElementUnderPointer.cs" t="Include" />
+              <e p="EventBase.cs" t="Include" />
+              <e p="EventCallback.cs" t="Include" />
+              <e p="EventCallbackRegistry.cs" t="Include" />
+              <e p="EventDebugger" t="Include">
+                <e p="EventDebugger.cs" t="Include" />
+                <e p="EventDebuggerEventRecord.cs" t="Include" />
+                <e p="EventDebuggerTrace.cs" t="Include" />
+                <e p="GlobalCallbackRegistry.cs" t="Include" />
+              </e>
+              <e p="EventHandler.cs" t="Include" />
+              <e p="FocusEvents.cs" t="Include" />
+              <e p="IEventDispatchingStrategy.cs" t="Include" />
+              <e p="IMGUIEventDispatchingStrategy.cs" t="Include" />
+              <e p="InputEvents.cs" t="Include" />
+              <e p="KeyboardEventDispatchingStrategy.cs" t="Include" />
+              <e p="KeyboardEvents.cs" t="Include" />
+              <e p="LayoutEvents.cs" t="Include" />
+              <e p="MouseCaptureDispatchingStrategy.cs" t="Include" />
+              <e p="MouseEventDispatchingStrategy.cs" t="Include" />
+              <e p="MouseEvents.cs" t="Include" />
+              <e p="MouseEventsHelper.cs" t="Include" />
+              <e p="PanelEvents.cs" t="Include" />
+              <e p="PointerCaptureDispatchingStrategy.cs" t="Include" />
+              <e p="PointerDeviceState.cs" t="Include" />
+              <e p="PointerEventDispatchingStrategy.cs" t="Include" />
+              <e p="PointerEvents.cs" t="Include" />
+              <e p="PropagationPaths.cs" t="Include" />
+              <e p="StyleEvents.cs" t="Include" />
+              <e p="TooltipEvent.cs" t="Include" />
+              <e p="UIEvent.cs" t="Include" />
+            </e>
+            <e p="FileWatcher.cs" t="Include" />
+            <e p="FocusController.cs" t="Include" />
+            <e p="HierarchyTraversal.cs" t="Include" />
+            <e p="IDataWatchService.cs" t="Include" />
+            <e p="IIMGUIContainerRuntimeCompatibility.cs" t="Include" />
+            <e p="ImmediateModeElement.cs" t="Include" />
+            <e p="InputWrapper.cs" t="Include" />
+            <e p="InteractionEnums.cs" t="Include" />
+            <e p="ITransform.cs" t="Include" />
+            <e p="ManipulatorActivationFilter.cs" t="Include" />
+            <e p="Manipulators.cs" t="Include" />
+            <e p="MouseButton.cs" t="Include" />
+            <e p="MouseCaptureController.cs" t="Include" />
+            <e p="MouseManipulator.cs" t="Include" />
+            <e p="NavigationEvent.cs" t="Include" />
+            <e p="ObjectPool.cs" t="Include" />
+            <e p="Panel.cs" t="Include" />
+            <e p="PanelRenderer.cs" t="Include" />
+            <e p="PointerCaptureController.cs" t="Include" />
+            <e p="PointerClickable.cs" t="Include" />
+            <e p="PointerManipulator.cs" t="Include" />
+            <e p="ProjectionUtils.cs" t="Include" />
+            <e p="Renderer" t="Include">
+              <e p="UIRAtlasAllocator.cs" t="Include" />
+              <e p="UIRAtlasManager.cs" t="Include" />
+              <e p="UIRChainBuilder.cs" t="Include" />
+              <e p="UIRChainBuilderImpl.cs" t="Include" />
+              <e p="UIRenderer" t="Include">
+                <e p="UIRenderDevice.cs" t="Include" />
+                <e p="UIRenderDeviceAllocator.cs" t="Include" />
+                <e p="UIRenderers.cs" t="Include" />
+              </e>
+              <e p="UIRGradientSettingsAtlas.cs" t="Include" />
+              <e p="UIRLayoutUpdater.cs" t="Include" />
+              <e p="UIRLinkedPool.cs" t="Include" />
+              <e p="UIRMeshBuilder.cs" t="Include" />
+              <e p="UIRMeshGenerationContext.cs" t="Include" />
+              <e p="UIRRepaintUpdater.cs" t="Include" />
+              <e p="UIRTessellation.cs" t="Include" />
+              <e p="UIRTextureBlitter.cs" t="Include" />
+              <e p="UIRUtility.cs" t="Include" />
+              <e p="UIRVectorImageManager.cs" t="Include" />
+              <e p="UIRVEShaderInfoAllocator.cs" t="Include" />
+            </e>
+            <e p="Scheduler.cs" t="Include" />
+            <e p="ShaderResources.cs" t="Include" />
+            <e p="Spacing.cs" t="Include" />
+            <e p="StringUtils.cs" t="Include" />
+            <e p="Style" t="Include">
+              <e p="Background.cs" t="Include" />
+              <e p="ComputedStyle.cs" t="Include" />
+              <e p="CustomStyle.cs" t="Include" />
+              <e p="Generated" t="Include">
+                <e p="ComputedStyle.cs" t="Include" />
+                <e p="InitialStyle.cs" t="Include" />
+                <e p="InlineStyleAccess.cs" t="Include" />
+                <e p="IResolvedStyle.cs" t="Include" />
+                <e p="IStyle.cs" t="Include" />
+                <e p="ResolvedStyleAccess.cs" t="Include" />
+                <e p="ShorthandApplicator.cs" t="Include" />
+                <e p="StyleDataStructs.cs" t="Include" />
+                <e p="StyleDebug.cs" t="Include" />
+                <e p="StylePropertyCache.cs" t="Include" />
+                <e p="StylePropertyEnums.cs" t="Include" />
+                <e p="StylePropertyUtil.cs" t="Include" />
+              </e>
+              <e p="InlineStyleAccess.cs" t="Include" />
+              <e p="Length.cs" t="Include" />
+              <e p="StyleBackground.cs" t="Include" />
+              <e p="StyleColor.cs" t="Include" />
+              <e p="StyleCursor.cs" t="Include" />
+              <e p="StyleDebug.cs" t="Include" />
+              <e p="StyleEnum.cs" t="Include" />
+              <e p="StyleFloat.cs" t="Include" />
+              <e p="StyleFont.cs" t="Include" />
+              <e p="StyleInt.cs" t="Include" />
+              <e p="StyleLength.cs" t="Include" />
+              <e p="StyleTypes.cs" t="Include" />
+            </e>
+            <e p="StyleEnums.cs" t="Include" />
+            <e p="StylePainter.cs" t="Include" />
+            <e p="StyleSheets" t="Include">
+              <e p="Dimension.cs" t="Include" />
+              <e p="ScalableImage.cs" t="Include" />
+              <e p="StyleComplexSelector.cs" t="Include" />
+              <e p="StyleProperty.cs" t="Include" />
+              <e p="StylePropertyReader.cs" t="Include" />
+              <e p="StyleRule.cs" t="Include" />
+              <e p="StyleSelector.cs" t="Include" />
+              <e p="StyleSelectorHelper.cs" t="Include" />
+              <e p="StyleSelectorPart.cs" t="Include" />
+              <e p="StyleSelectorRelationship.cs" t="Include" />
+              <e p="StyleSelectorType.cs" t="Include" />
+              <e p="StyleSheet.cs" t="Include" />
+              <e p="StyleSheetApplicator.cs" t="Include" />
+              <e p="StyleSheetCache.cs" t="Include" />
+              <e p="StyleSheetColor.cs" t="Include" />
+              <e p="StyleSheetExtensions.cs" t="Include" />
+              <e p="StyleValue.cs" t="Include" />
+              <e p="StyleValueFunction.cs" t="Include" />
+              <e p="StyleValueHandle.cs" t="Include" />
+              <e p="StyleValueKeyword.cs" t="Include" />
+              <e p="StyleValueType.cs" t="Include" />
+              <e p="StyleVariable.cs" t="Include" />
+              <e p="Syntax" t="Include">
+                <e p="StyleSyntaxExpression.cs" t="Include" />
+                <e p="StyleSyntaxParser.cs" t="Include" />
+                <e p="StyleSyntaxToken.cs" t="Include" />
+              </e>
+              <e p="Validation" t="Include">
+                <e p="StyleMatcher.cs" t="Include" />
+                <e p="StylePropertyCache.cs" t="Include" />
+                <e p="StylePropertyValueParser.cs" t="Include" />
+                <e p="StyleValidator.cs" t="Include" />
+              </e>
+            </e>
+            <e p="TemplateContainer.cs" t="Include" />
+            <e p="TextElement.cs" t="Include" />
+            <e p="TextHandle.cs" t="Include" />
+            <e p="Transitions.cs" t="Include" />
+            <e p="UIElementsEventSystem.cs" t="Include" />
+            <e p="UIElementsRuntimeUtility.cs" t="Include" />
+            <e p="UIElementsUtility.cs" t="Include" />
+            <e p="Unity.UIElements.asmdef" t="Include" />
+            <e p="UQuery.cs" t="Include" />
+            <e p="UXML" t="Include">
+              <e p="IUxmlAttributes.cs" t="Include" />
+              <e p="OrphanFactories.cs" t="Include" />
+              <e p="TemplateAsset.cs" t="Include" />
+              <e p="UxmlAttributeDescription.cs" t="Include" />
+              <e p="UxmlChildElementDescription.cs" t="Include" />
+              <e p="UxmlFactory.cs" t="Include" />
+              <e p="UxmlTypeRestriction.cs" t="Include" />
+              <e p="VectorImage.cs" t="Include" />
+              <e p="VisualElementAsset.cs" t="Include" />
+              <e p="VisualElementFactoryRegistry.cs" t="Include" />
+              <e p="VisualTreeAsset.cs" t="Include" />
+            </e>
+            <e p="UXMLRuntimeFactories.cs" t="Include" />
+            <e p="ValueAnimation.cs" t="Include" />
+            <e p="VisualElement.cs" t="Include" />
+            <e p="VisualElementAnimation.cs" t="Include" />
+            <e p="VisualElementExperimentalFeatures.cs" t="Include" />
+            <e p="VisualElementFocusRing.cs" t="Include" />
+            <e p="VisualElementHierarchy.cs" t="Include" />
+            <e p="VisualElementScheduler.cs" t="Include" />
+            <e p="VisualElementStyleAccess.cs" t="Include" />
+            <e p="VisualElementStyleSheetSet.cs" t="Include" />
+            <e p="VisualElementTooltip.cs" t="Include" />
+            <e p="VisualElementUtils.cs" t="Include" />
+            <e p="VisualTreeAnimationUpdater.cs" t="Include" />
+            <e p="VisualTreeHierarchyTracker.cs" t="Include" />
+            <e p="VisualTreeStyleUpdater.cs" t="Include" />
+            <e p="VisualTreeTransformClipUpdater.cs" t="Include" />
+            <e p="VisualTreeUpdater.cs" t="Include" />
+            <e p="VisualTreeViewDataUpdater.cs" t="Include" />
+            <e p="WorldQuadDisplay.cs" t="Include" />
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AdvancedSchedulerTests.cs" t="Include" />
+              <e p="BaseMockTests.cs" t="Include" />
+              <e p="BaseTextFieldTests.cs" t="Include" />
+              <e p="BaseVisualElementTests.cs" t="Include" />
+              <e p="Bindings" t="Include">
+                <e p="BindingsTestObject.cs" t="Include" />
+                <e p="BindingsTestObjectEditor.cs" t="Include" />
+                <e p="CustomPropertyDrawerExamples.cs" t="Include" />
+                <e p="InspectorModesDefaultObject.cs" t="Include" />
+                <e p="InspectorModesIMGUIObject.cs" t="Include" />
+                <e p="InspectorModesPropertyTypes.cs" t="Include" />
+                <e p="InspectorModesUIElementsObject.cs" t="Include" />
+              </e>
+              <e p="BindingsTests.cs" t="Include" />
+              <e p="BindingStyleOverridesTests.cs" t="Include" />
+              <e p="ButtonTests.cs" t="Include" />
+              <e p="ClippingTests.cs" t="Include" />
+              <e p="ComponentTests.cs" t="Include" />
+              <e p="CompoundFieldTests.cs" t="Include" />
+              <e p="ContextualMenuTests.cs" t="Include" />
+              <e p="ControlTests.cs" t="Include" />
+              <e p="DisposeTests.cs" t="Include" />
+              <e p="DoubleFieldTests.cs" t="Include" />
+              <e p="DummyTest.cs" t="Include" />
+              <e p="EnumFieldTests.cs" t="Include" />
+              <e p="EnumFlagsFieldTests.cs" t="Include" />
+              <e p="EventCallbackRegistryTests.cs" t="Include" />
+              <e p="EventCallbackTests.cs" t="Include" />
+              <e p="EventDispatcherTests.cs" t="Include" />
+              <e p="Events" t="Include">
+                <e p="GeometryChangedEventTests.cs" t="Include" />
+                <e p="PointerCaptureTests.cs" t="Include" />
+                <e p="PointerEventTests.cs" t="Include" />
+              </e>
+              <e p="EventSanityTests.cs" t="Include" />
+              <e p="EventTests.cs" t="Include" />
+              <e p="FileWatcherTest.cs" t="Include" />
+              <e p="FocusControllerTests.cs" t="Include" />
+              <e p="FoldoutTests.cs" t="Include" />
+              <e p="Helpers.cs" t="Include" />
+              <e p="HierarchyTests.cs" t="Include" />
+              <e p="ImageTests.cs" t="Include" />
+              <e p="ImageTests2.cs" t="Include" />
+              <e p="IMGUIContainerTests.cs" t="Include" />
+              <e p="IMGUIEventTests.cs" t="Include" />
+              <e p="IMGUILayoutTests.cs" t="Include" />
+              <e p="IMGUIPropagationTests.cs" t="Include" />
+              <e p="IMGUIUtilityTests.cs" t="Include" />
+              <e p="Inspectors" t="Include">
+                <e p="CustomEditorWithoutPropertiesTests.cs" t="Include" />
+                <e p="CustomInspectorTests.cs" t="Include" />
+                <e p="DefaultAssetCustomEditor.cs" t="Include" />
+                <e p="DefaultInspectorTests.cs" t="Include" />
+                <e p="IMGUIInspectorTests.cs" t="Include" />
+                <e p="InspectorModesTests.cs" t="Include" />
+                <e p="InspectorTestBehaviourEditor.cs" t="Include" />
+                <e p="MultiEditInspectorTests.cs" t="Include" />
+                <e p="RebindInspectorTests.cs" t="Include" />
+              </e>
+              <e p="IntegerFieldTests.cs" t="Include" />
+              <e p="KeyboardTextFieldTests.cs" t="Include" />
+              <e p="LabelTests.cs" t="Include" />
+              <e p="LayerMaskFieldTests.cs" t="Include" />
+              <e p="LayoutTests.cs" t="Include" />
+              <e p="LeakTests.cs" t="Include" />
+              <e p="ListViewTests.cs" t="Include" />
+              <e p="Manipulators" t="Include">
+                <e p="PointerClickableTests.cs" t="Include" />
+              </e>
+              <e p="MaskFieldTests.cs" t="Include" />
+              <e p="MinMaxSliderTests.cs" t="Include" />
+              <e p="ObjectFieldTests.cs" t="Include" />
+              <e p="ObjectFieldWithComponentTests.cs" t="Include" />
+              <e p="PanelTests.cs" t="Include" />
+              <e p="PercentageTests.cs" t="Include" />
+              <e p="PickingTests.cs" t="Include" />
+              <e p="PopupFieldTests.cs" t="Include" />
+              <e p="ProgressBarTests.cs" t="Include" />
+              <e p="ProjectionUtilsTests.cs" t="Include" />
+              <e p="PropertiesPropagationTests.cs" t="Include" />
+              <e p="PropertyControlTests.cs" t="Include" />
+              <e p="PropertyFieldTests.cs" t="Include" />
+              <e p="Renderer" t="Include">
+                <e p="BaseUIRTests.cs" t="Include" />
+                <e p="FakeRenderDevice.cs" t="Include" />
+                <e p="RuntimePanelTests.cs" t="Include" />
+                <e p="UIRAtlasAllocatorTests.cs" t="Include" />
+                <e p="UIRAtlasManagerTests.cs" t="Include" />
+                <e p="UIRBorderTests.cs" t="Include" />
+                <e p="UIRDataChainBuilderTests.cs" t="Include" />
+                <e p="UIRenderDeviceTests.cs" t="Include" />
+                <e p="UIRGradientSettingsAtlasTests.cs" t="Include" />
+                <e p="UIRLinkedPoolTests.cs" t="Include" />
+                <e p="UIRMeshAPITests.cs" t="Include" />
+                <e p="UIRPanelTests.cs" t="Include" />
+                <e p="UIRRepaintUpdaterHierarchyTests.cs" t="Include" />
+                <e p="UIRRepaintUpdaterTests.cs" t="Include" />
+                <e p="UIRSliceTests.cs" t="Include" />
+                <e p="UIRStylePainterTests.cs" t="Include" />
+                <e p="UIRTestsHelper.cs" t="Include" />
+                <e p="UIRVectorImageTests.cs" t="Include" />
+                <e p="UIRVEShaderInfoAllocatorTests.cs" t="Include" />
+              </e>
+              <e p="RepeatButtonTests.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="custom-drawer.uxml" t="Include" />
+                <e p="InheritPropertyTest-style.uss" t="Include" />
+                <e p="ShorthandTest-style.uss" t="Include" />
+                <e p="USS" t="Include">
+                  <e p="empty.uss" t="Include" />
+                </e>
+                <e p="UXML" t="Include">
+                  <e p="PropertyControlNonSupportedType.uxml" t="Include" />
+                  <e p="PropertyControlSupportedType.uxml" t="Include" />
+                  <e p="ScrollerTemplate.uxml" t="Include" />
+                  <e p="TextFieldTemplate.uxml" t="Include" />
+                  <e p="URLTests" t="Include">
+                    <e p="Styles1.uss" t="Include" />
+                    <e p="Subfolder" t="Include">
+                      <e p="Styles2.uss" t="Include" />
+                      <e p="Template2.uxml" t="Include" />
+                      <e p="Template3.uxml" t="Include" />
+                    </e>
+                    <e p="Template1.uxml" t="Include" />
+                  </e>
+                  <e p="UXMLAttributeOverrides" t="Include">
+                    <e p="Challenge.uxml" t="Include" />
+                    <e p="PlayerAvatar.uxml" t="Include" />
+                    <e p="PlayerOneAvatar.uxml" t="Include" />
+                    <e p="PlayerScore.uxml" t="Include" />
+                  </e>
+                </e>
+                <e p="VisualTreeTest-style.uss" t="Include" />
+              </e>
+              <e p="ScrollerTests2.cs" t="Include" />
+              <e p="ScrollViewTests.cs" t="Include" />
+              <e p="Serialization" t="Include">
+                <e p="AssetTypeTests.cs" t="Include" />
+                <e p="CloneTests.cs" t="Include" />
+                <e p="ContentContainerImportTests.cs" t="Include" />
+                <e p="FakeAttributeBag.cs" t="Include" />
+                <e p="ImporterErrorTests.cs" t="Include" />
+                <e p="ImporterTests.cs" t="Include" />
+                <e p="ImporterTestsBase.cs" t="Include" />
+                <e p="SchemaGeneration.cs" t="Include" />
+                <e p="SerializationTestsBase.cs" t="Include" />
+                <e p="SlotImportTests.cs" t="Include" />
+                <e p="SrcAttributeTests.cs" t="Include" />
+                <e p="TemplateInstanceTests.cs" t="Include" />
+                <e p="TreeCloneTests.cs" t="Include" />
+                <e p="TreeTestHelper.cs" t="Include" />
+                <e p="UsingTests.cs" t="Include" />
+              </e>
+              <e p="SliderIntTests.cs" t="Include" />
+              <e p="SliderTests.cs" t="Include" />
+              <e p="StringUtilsTests.cs" t="Include" />
+              <e p="StyleSheets" t="Include">
+                <e p="BaseStyleTests.cs" t="Include" />
+                <e p="CursorTests.cs" t="Include" />
+                <e p="FlexTests.cs" t="Include" />
+                <e p="InheritPropertyTests.cs" t="Include" />
+                <e p="InitialPropertyTests.cs" t="Include" />
+                <e p="InlineStylesTests.cs" t="Include" />
+                <e p="PseudoStatesTests.cs" t="Include" />
+                <e p="RuleOrderTests.cs" t="Include" />
+                <e p="StyleEnumPropertyTests.cs" t="Include" />
+                <e p="StyleMatcherTests.cs" t="Include" />
+                <e p="StylePropertyTest.cs" t="Include" />
+                <e p="StylePropertyValueParserTests.cs" t="Include" />
+                <e p="StyleSheetCacheTests.cs" t="Include" />
+                <e p="StyleSheetColorTests.cs" t="Include" />
+                <e p="StyleSheetOrderTest.cs" t="Include" />
+                <e p="StyleSheetPrecedenceTests.cs" t="Include" />
+                <e p="StyleSheetShorthandTest.cs" t="Include" />
+                <e p="StyleSheetTestHelper.cs" t="Include" />
+                <e p="StyleSyntaxParserTests.cs" t="Include" />
+                <e p="StyleSyntaxTokenizerTests.cs" t="Include" />
+                <e p="StyleValidatorTests.cs" t="Include" />
+                <e p="StyleVariableTests.cs" t="Include" />
+                <e p="TextFieldStylesTests.cs" t="Include" />
+                <e p="VisualTreeStyleTests.cs" t="Include" />
+              </e>
+              <e p="TagAndLayerFieldTests.cs" t="Include" />
+              <e p="TestData.cs" t="Include" />
+              <e p="TestEventHelpers.cs" t="Include" />
+              <e p="TextElementTests.cs" t="Include" />
+              <e p="TimedEventSchedulerTests.cs" t="Include" />
+              <e p="ToggleTests.cs" t="Include" />
+              <e p="TouchScreenTextFieldTests.cs" t="Include" />
+              <e p="TransformTests.cs" t="Include" />
+              <e p="TreeViewTests.cs" t="Include" />
+              <e p="TweenTests.cs" t="Include" />
+              <e p="UIElementsEventTracker.cs" t="Include" />
+              <e p="UIElementsTestHelpers.cs" t="Include" />
+              <e p="Unity.UIElements.EditorTests.asmdef" t="Include" />
+              <e p="UQueryTests.cs" t="Include" />
+              <e p="UXMLAttributeOverrideTests.cs" t="Include" />
+              <e p="VersionChangeTests.cs" t="Include" />
+              <e p="ViewData" t="Include">
+                <e p="ViewDataTestScriptableObject.cs" t="Include" />
+              </e>
+              <e p="ViewDataTests.cs" t="Include" />
+              <e p="VisualContainerTests.cs" t="Include" />
+              <e p="VisualElementStyleSheetSetTests.cs" t="Include" />
+              <e p="VisualElementTests.cs" t="Include" />
+              <e p="VisualTreeHierarchyTrackerTests.cs" t="Include" />
+              <e p="VisualTreeRepaintTests.cs" t="Include" />
+              <e p="VisualTreeUpdateTests.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="Bindings" t="Include">
+                <e p="PrefabTestScript.cs" t="Include" />
+              </e>
+              <e p="CustomUXMLTests.cs" t="Include" />
+              <e p="Inspector" t="Include">
+                <e p="InspectorTestBehaviour.cs" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="CustomUXML" t="Include">
+                  <e p="CustomElement.cs" t="Include" />
+                  <e p="CustomUXML.uxml" t="Include" />
+                </e>
+              </e>
+              <e p="ScalingTests.cs" t="Include" />
+              <e p="Unity.UIElements.Tests.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Unity.UIElements.csproj" t="IncludeRecursive" />
+      <e p="Unity.UIElements.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.UIElements.EditorTests.csproj" t="IncludeRecursive" />
+      <e p="Unity.UIElements.Tests.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_memorize.1387125712.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+  </component>
+</project>

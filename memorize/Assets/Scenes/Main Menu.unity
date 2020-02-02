@@ -204,3 +204,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &558180874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 558180875}
+  - component: {fileID: 558180876}
+  m_Layer: 0
+  m_Name: MenuPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &558180875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558180874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &558180876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558180874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8302b9857102e44c8c26813e6008537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uxml: {fileID: -5969256223813273824, guid: 6347caa6d997b472aa7929086b51c585, type: 3}
+  defaultShaders: {fileID: 1196701285}
+  unityStyleSheet: {fileID: -5769037167687119517, guid: dcdcf4c7a15074842aecfa0c97c872da, type: 3}
+  stylesheets: []
+  renderMode: 1
+  inputCamera: {fileID: 0}
+  targetTexture: {fileID: 0}
+  panelTransform: {fileID: 0}
+  scaleMode: 0
+  scale: 1
+  referenceDpi: 96
+  fallbackDpi: 96
+  referenceResolution: {x: 1200, y: 800}
+  screenMatchMode: 0
+  match: 0
+  m_EnableLiveUpdate: 1
+--- !u!114 &1196701285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f9055a5f1f14da18bc050205338bb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultRuntimeShader: {fileID: 4800000, guid: 1e5f18a346ed454418f93aa7eaf55791, type: 3}
+  defaultEditorShader: {fileID: 0}
+  defaultWorldSpaceShader: {fileID: 4800000, guid: 7082954141e3ccc43bc3b217cf12e2e0, type: 3}
+  defaultAtlasShader: {fileID: 4800000, guid: 662b00f569c02f84bbc426d4c41ceb5e, type: 3}

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: dcdcf4c7a15074842aecfa0c97c872da
+importerOverride: Unity.UIElements.Editor:Unity.UIElements.Editor.StyleSheets:StyleSheetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: c226246b4e77e4744a1b515958790217, type: 3}
+  disableValidation: 0

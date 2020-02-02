@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:editor="Unity.UIElements.Editor" xmlns:Tests.BB.Conflict="NamespaceHasCorrectXmlnsPrefixes.A.BB.Conflict" xmlns:engine="Unity.UIElements" xmlns:Tests.AA.Conflict="NamespaceHasCorrectXmlnsPrefixes.A.AA.Conflict" xmlns="MyNamespace" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Unity.UIElements.xsd" namespace="Unity.UIElements" />
+  <xs:import schemaLocation="Unity.UIElements.Editor.xsd" namespace="Unity.UIElements.Editor" />
+  <xs:include schemaLocation="GlobalNamespace.xsd" />
+  <xs:import schemaLocation="NamespaceHasCorrectXmlnsPrefixes.A.BB.Conflict.xsd" namespace="NamespaceHasCorrectXmlnsPrefixes.A.BB.Conflict" />
+  <xs:import schemaLocation="NamespaceHasCorrectXmlnsPrefixes.A.AA.Conflict.xsd" namespace="NamespaceHasCorrectXmlnsPrefixes.A.AA.Conflict" />
+  <xs:import schemaLocation="Unity.UIElements.Editor.Tests.Uxml.xsd" namespace="Unity.UIElements.Editor.Tests.Uxml" />
+  <xs:import schemaLocation="Unity.UIElements.Editor.Debugger.xsd" namespace="Unity.UIElements.Editor.Debugger" />
+  <xs:import schemaLocation="MyNamespace.xsd" namespace="MyNamespace" />
+</xs:schema>
